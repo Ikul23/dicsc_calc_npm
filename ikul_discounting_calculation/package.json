@@ -1,22 +1,25 @@
 {
-  "name": "discountingcalculation",
+  "name": "ikul23_npv_calc",
   "version": "1.0.0",
   "description": "discounted cash flow method (financial modeling)",
-  "main": "y",
+  "main": "index.js",
   "scripts": {
-    "test": "y"
+    "start": "node ./discounting.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ikul23/dicsc_calc_npm.git"
   },
   "keywords": [
-    "DC"
+    "discount-cash-flows-calculation"
   ],
   "author": "ikul23",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ikul23/dicsc_calc_npm/issues"
   },
-  "homepage": "https://github.com/Ikul23/dicsc_calc_npm#readme"
+  "homepage": "https://github.com/Ikul23/dicsc_calc_npm#readme",
+  "dependencies": {
+    "decimal.js": "^10.4.3"
+  }
 }
