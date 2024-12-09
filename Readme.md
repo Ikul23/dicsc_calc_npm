@@ -2,13 +2,6 @@
 
 Этот пакет рассчитывает чистую приведенную стоимость (NPV) денежных потоков с использованием ставки дисконтирования.
 
-## Установка
-
-``bash
-npm install discount-cashflows
-
-````
-
 # Discount Cashflows
 
 This package calculates the Net Present Value (NPV) of cashflows using a discount rate.
@@ -17,7 +10,7 @@ This package calculates the Net Present Value (NPV) of cashflows using a discoun
 
 ```bash
 npm install discount-cashflows
-````
+```
 
 - Функция расчета дисконтированных денежных потоков (NPV)
 - @param {number[]} cashflows - Массив денежных потоков (включая инвестиции t=0)
